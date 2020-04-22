@@ -13,6 +13,7 @@ class Post
   end
 
   def author
-  end 
+    @title.author
+  end
 
 end

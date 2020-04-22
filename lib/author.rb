@@ -7,5 +7,9 @@ attr_accessor :name, :posts
 
   def posts
     @posts
+  end
+
+  def author
+    Post.author = self
   end 
 end

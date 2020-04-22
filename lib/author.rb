@@ -9,10 +9,6 @@ attr_accessor :name, :posts
     Post.all
   end
 
-  def author
-    Post.author = self
-  end
-
   def add_post(title)
     new_post = Post.new(title)
     new_post.author = self

@@ -21,7 +21,7 @@ attr_accessor :name, :posts
     @posts << post
   end
 
-  def post_count
+  def self.post_count
     Post.all.length
   end
 

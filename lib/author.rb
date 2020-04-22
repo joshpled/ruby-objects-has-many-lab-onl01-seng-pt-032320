@@ -21,4 +21,7 @@ attr_accessor :name, :posts
     @posts << post
   end
 
+  def post_count
+  end 
+
 end

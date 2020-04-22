@@ -22,7 +22,7 @@ attr_accessor :name, :posts
   end
 
   def post_count
-    @posts.length
+    Post.all.length
   end
 
 end

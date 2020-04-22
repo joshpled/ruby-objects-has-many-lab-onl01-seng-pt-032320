@@ -13,7 +13,8 @@ class Post
   end
 
   def author_name
-    @author.name
+
+    Post.include?(@author) ? @author.name
   end
 
 end

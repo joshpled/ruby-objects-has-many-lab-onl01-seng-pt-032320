@@ -11,12 +11,12 @@ attr_accessor :name, :posts
   end
 
   def add_post(title)
-    posts << title
+    @posts << title
     title.author = self
   end
 
   def add_post_by_title(title)
     post = Post.new
     post.author = self
-    posts << post
+    @posts << post
 end

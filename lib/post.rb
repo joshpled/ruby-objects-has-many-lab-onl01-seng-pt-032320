@@ -14,7 +14,7 @@ class Post
 
   def author_name
 
-    Post.include?(@author) ? @author.name
+    Post.include?(@author) ? @author.name : nil
   end
 
 end

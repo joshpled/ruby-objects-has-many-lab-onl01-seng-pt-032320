@@ -6,7 +6,7 @@ attr_accessor :name, :posts
   end
 
   def posts
-    post.all
+    Post.all
   end
 
   def author

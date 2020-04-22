@@ -3,7 +3,6 @@ class Post
 
   def initialize(title)
     @title = title
-    Author.posts << self
   end
 
 

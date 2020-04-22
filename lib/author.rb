@@ -5,5 +5,7 @@ attr_accessor :name, :posts
     @posts = []
   end
 
-
+  def posts
+    @posts
+  end 
 end

@@ -13,4 +13,10 @@ class Song
       @@all
     end
 
+    def author_name
+      if @author
+        self.author.name
+      end
+    end
+
 end
